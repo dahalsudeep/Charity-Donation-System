@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import CharityDonation from "../artifacts/contracts/CharityDonation.sol/CharityDonation.json";
 
-const CONTRACT_ADDRESS = "YOUR_DEPLOYED_CONTRACT_ADDRESS";
+const CONTRACT_ADDRESS = "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80";
 
 function App() {
     const [charities, setCharities] = useState([]);
